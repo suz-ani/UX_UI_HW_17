@@ -20,7 +20,7 @@ div.logo {
 }
 
 nav {
-  width: 73%;
+  width: 72%;
   padding: 1%;
 }
 
@@ -30,14 +30,27 @@ ul.navigation-tabs {
 }
 
 .logo {
-  text-align: center;
+  text-align: start;
 }
 
 /*hero section styling*/
-div.heroImg {
+section.heroImg {
   height: 600px;
-  padding: 250px;
+  padding: 25px;
 }
 
 div.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  background-color: #6c6c6d;
+}
+
+ul.footer-tabs {
+  display: inline-block;
+  vertical-align: top;
 }
